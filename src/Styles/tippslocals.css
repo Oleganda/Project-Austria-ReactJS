@@ -1,0 +1,149 @@
+.feedbackMainCont {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: #F13C20;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.firstPhotoCity,
+.secondPhoto,
+.thirdPhoto,
+.forthPhoto,
+.fifthPhoto {
+    display: flex;
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 260px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1cmx;
+    box-shadow: 8px 7px 8px 7px rgba(0, 0, 0, 0.15);
+}
+
+.tippsFirstLocalQuestion,
+.tippsSecondLocalQuestion,
+.tippsThirdLocalQuestion,
+.tippsForthLocalQuestion,
+.tippsFifthLocalQuestion {
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    color: #EFE2BA;
+
+}
+
+.tippsFirstLocalAnswer,
+.tippsSecondLocalAnswer,
+.tippsThirdLocalAnswer,
+.tippsForthLocalAnswer,
+.tippsFifthLocalAnswer {
+    background-color: #EFE2BA;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.tippsFirst,
+.tippsSecond,
+.tippsThird,
+.tippsForth,
+.tippsFifth {
+    background-color: #EFE2BA;
+    border-radius: 8px;
+    position: flex;
+}
+
+
+.tippsFirstLocal,
+.tippsSecondLocal,
+.tippsThirdLocal,
+.tippsForthLocal,
+.tippsFifthLocal {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.firstPhotoCity:hover,
+.secondPhoto:hover,
+.thirdPhoto:hover,
+.forthPhoto:hover,
+.fifthPhoto:hover {
+
+    cursor: pointer;
+
+    height: 245px;
+    width: 245px;
+    border-radius: 255px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .feedbackMainCont {
+        grid-template-columns: 30% 30% 30%;
+    }
+
+    .firstPhotoCity,
+    .secondPhoto,
+    .thirdPhoto,
+    .forthPhoto,
+    .fifthPhoto {
+        display: flex;
+        height: 150px;
+        width: 150px;
+    }
+
+    .tippsFirstLocalQuestion,
+    .tippsSecondLocalQuestion,
+    .tippsThirdLocalQuestion,
+    .tippsForthLocalQuestion,
+    .tippsFifthLocalQuestion {
+        margin-top: 10px;
+        margin-left: 45px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: #EFE2BA;
+    }
+
+    .tippsFirstLocalAnswer,
+    .tippsSecondLocalAnswer,
+    .tippsThirdLocalAnswer,
+    .tippsForthLocalAnswer,
+    .tippsFifthLocalAnswer {
+        background-color: #EFE2BA;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-size: small;
+        text-align: center;
+    }
+
+    .firstPhotoCity:hover,
+    .secondPhoto:hover,
+    .thirdPhoto:hover,
+    .forthPhoto:hover,
+    .fifthPhoto:hover {
+
+        cursor: pointer;
+
+        height: 140px;
+        width: 140px;
+        border-radius: 255px;
+    }
+
+    @media only screen and (max-width: 855px) {
+        .feedbackMainCont {
+            grid-template-columns: 50% 50%;
+        }
+    }
+}
